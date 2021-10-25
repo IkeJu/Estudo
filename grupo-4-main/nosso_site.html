@@ -1,0 +1,39 @@
+<meta charset="UTF-8">
+
+<script>
+	function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+    function calculaMedia(notaPri, notaSeg, notaTri) {
+
+        return (notaPri + notaSeg + notaTri) / 3;
+}
+
+	var nome = prompt("Informe o seu nome");
+	var materia = prompt(nome + " Informe a materia")
+	var notaPriInformada = prompt(" Informe sua nota do primeiro trimestre");
+	var notaSegInformada = prompt(" Informe sua nota do segundo trimestre");
+	var notaTriInformada = prompt(" Informe sua nota do segundo trimestre");
+
+	var mediaFinal = calculaMedia(notaPriInformada, notaSegInformada, notaTriInformada);
+
+	if(mediaFinal >= 60) {
+
+    	mostra( nome + " sua media é " + mediaFinal + ". Parabéns!! Você passou :D");
+
+	}
+
+	if(mediaFinal < 60) {
+
+    	mostra(nome + " sua media é " + mediaFinal + " ,infelismente sua nota está abaixo da média em " + materia );
+	}
+</script>
