@@ -1,0 +1,17 @@
+.video {
+	width: 500px;
+    margin: 3em auto;
+}
+.video-tamanho {
+    width: 50em;
+    height: 30rem;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen {
+    
+}

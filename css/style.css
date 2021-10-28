@@ -1,0 +1,48 @@
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+	background-color: #FFF;
+	padding: 20px 0;
+}
+
+.cabecalhoPrincipal-titulo {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.cabecalhoPrincipal-titulo a {
+	text-decoration: none;
+	color: blue;
+    font-size: 3rem;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #f8f8f8;
+	background-color: rgb(0, 0, 0);
+	text-decoration: none;
+	transition: .5s;
+	display: block;
+
+	border-bottom: 1px solid #9799A6;
+}
+
+.conteudo p {
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	text-align: center;
+}
+
+.header {
+    background-color: dimgrey;
+}
+
+.centro {
+    margin-left: 30rem;
+    margin-block-end: 20rem;
+}
