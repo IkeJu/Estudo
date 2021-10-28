@@ -12,6 +12,9 @@
     justify-content: center;
 }
 
-@media screen {
-    
+@media screen and (max-width: 480px)  {
+    .video-tamanho {
+        width: 75%;
+        height: 75%;
+    }
 }
